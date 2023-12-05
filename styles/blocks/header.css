@@ -18,8 +18,6 @@
 }
 
 .header__thirt {
-    display: flex;
     margin-top: 64px;
     width: 486px;
-    align-content: space-between;
 }
