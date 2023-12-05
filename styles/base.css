@@ -60,3 +60,13 @@ a {
 address {
     font-style: normal;
 }
+
+.button {
+    width: 156px;
+    height: 60px;
+    background: #FEDB3F;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 100px;
+}
