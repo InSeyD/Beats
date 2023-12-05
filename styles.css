@@ -4,3 +4,5 @@
 @import url(./styles/normalize.css);
 @import url(./styles/fonts.css);
 @import url(./styles/blocks/contacts.css);
+@import url(./styles/blocks/title.css);
+@import url(./styles/blocks/points.css);
