@@ -15,6 +15,7 @@
 .header__second {
     display: flex;
     margin-top: 102px;
+    justify-content: space-between;
 }
 
 .header__thirt {
