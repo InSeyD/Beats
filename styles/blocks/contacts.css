@@ -1,0 +1,14 @@
+.contacts {
+    display: flex;
+}
+
+.contacts__tel {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+.contacts__icon {
+    
+}

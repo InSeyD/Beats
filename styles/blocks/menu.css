@@ -1,0 +1,13 @@
+.menu {
+    width: 638px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__item {
+    font-weight: 700;
+    font-size: 18px;
+}
