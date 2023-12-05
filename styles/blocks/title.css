@@ -13,4 +13,9 @@
 .subtitle {
     font-size: 21px;
     color: #ffffff;
+    margin-top: 17px;
+}
+
+.title__button {
+    margin-top: 39px;
 }
