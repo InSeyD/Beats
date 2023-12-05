@@ -3,3 +3,9 @@
     flex-direction: column;
     width: 583px;
 }
+
+.title__text {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 48px;
+}
