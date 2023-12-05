@@ -1,5 +1,6 @@
 .contacts {
     display: flex;
+    align-items: center;
 }
 
 .contacts__tel {
@@ -7,8 +8,4 @@
     font-weight: 700;
     font-size: 22px;
     margin-left: 5px;
-}
-
-.contacts__icon {
-    
 }
