@@ -1,18 +1,6 @@
-.points__item-point {
+.points__item {
     height: 9px;
     width: 9px;
     border-radius: 50%;
     color: #FFFFFF;
-}
-
-.points__item-circle {
-    height: 18px;
-    width: 18px;
-    border-radius: 50px;
-    border: 1px #ffffff;
-    display: none;
-}
-
-.points__item-point:hover .points__item-circle{
-    display: block;
 }
