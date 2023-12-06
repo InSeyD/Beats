@@ -19,8 +19,9 @@
     display: none;
 }
 
-.points__item:hover .points__item::after{
-    display: block;
+.points__item--active {
+    .points__item::after{
+        display: block;
+    }
 }
-  
 
