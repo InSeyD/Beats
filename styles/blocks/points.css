@@ -3,6 +3,7 @@
     width: 9px;
     border-radius: 50%;
     background-color: #FFFFFF;
+    position: relative;
 }
 
 .points__item::after {
