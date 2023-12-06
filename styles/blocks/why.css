@@ -20,6 +20,7 @@
 .why__list {
     display: flex;
     margin-top: 49px;
+    justify-content: center;
 }
 
 .why__item {
