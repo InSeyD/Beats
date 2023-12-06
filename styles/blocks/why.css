@@ -1,0 +1,11 @@
+.why__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 105px;
+}
+
+.why__title-text {
+    margin: 0;
+
+}
