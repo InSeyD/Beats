@@ -1,0 +1,12 @@
+.boards {
+    background: #F8FAF9;
+}
+
+.boards__item {
+    display: flex;
+}
+
+.boards__content {
+    display: flex;
+    flex-direction: column;
+}
