@@ -15,5 +15,11 @@
     border: 1px solid #FFFFFF;
     right: -6px;
     top: -5px;
+    display: none;
+}
+
+.points__item:hover .points__item::after{
+    display: block;
 }
   
+
