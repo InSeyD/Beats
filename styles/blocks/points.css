@@ -4,6 +4,7 @@
     border-radius: 50%;
     background-color: #FFFFFF;
     position: relative;
+    margin-bottom: 13px;
 }
 
 .points__item::after {
