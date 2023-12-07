@@ -26,16 +26,13 @@
 .options__list {
     display: flex;
     flex-direction: column;
+    padding: 18px 25px 21px 26px;
 }
 
 .options__item {
     display: flex;
     height: 44px;
     align-items: center;
-}
-
-.options__item-icon {
-    margin-left: 26px;
 }
 
 .options__item-text {
