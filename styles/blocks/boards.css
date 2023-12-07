@@ -41,3 +41,7 @@
     font-weight: 500;
     font-size: 16px;
 }
+
+.options__item-quantity {
+    padding-left: 7px;
+}
