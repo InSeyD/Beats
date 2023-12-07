@@ -24,6 +24,11 @@
     position: relative;
     top: -95px;
     left: 91px;
+    display: none;
+}
+
+.boards__options-icon:hover .boards-options-hover{
+    display: block;
 }
 
 .options__list {
