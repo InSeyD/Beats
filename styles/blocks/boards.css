@@ -26,7 +26,7 @@
 .options__list {
     display: flex;
     flex-direction: column;
-    padding: 18px 13px 21px 14px;
+    padding: 18px 25px 21px 26px;
 }
 
 .options__item {
@@ -43,5 +43,5 @@
 }
 
 .options__item-quantity {
-    padding-left: 7px;
+    padding-left: 4px;
 }
