@@ -127,7 +127,7 @@
     transform: rotate(135deg);
 }
 
-.button--boards-right {
+.button--boards-left {
     content: "";
     position: absolute;
     width: 27px;
