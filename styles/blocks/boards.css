@@ -98,3 +98,11 @@
     display: flex;
     margin-top: 24px;
 }
+
+.boards__content-price {
+    font-size: 60px;
+    font-weight: 300;
+    width: 187px;
+    color: #151515;
+    margin-right: 28px;
+}
