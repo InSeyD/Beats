@@ -18,6 +18,9 @@
 .boards-options-hover {
     background: #0000000f;
     box-shadow: 4px 4px 40px 0px #0000000f;
+    width: 273px;
+    height: 291px;
+}
 }
 
 .options__list {
@@ -27,6 +30,8 @@
 
 .options__item {
     display: flex;
+    height: 44px;
+    align-items: center;
 }
 
 .options__item-icon {
