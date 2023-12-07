@@ -119,6 +119,8 @@
 .button--boards::after {
     content: "";
     position: absolute;
+    width: 27px;
+    height: 27px;
     border: 2px solid transparent;
     border-top-color: #000000;
 }
