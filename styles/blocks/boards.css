@@ -93,3 +93,8 @@
 .boards__content-width-1 {
     color: #666666;
 }
+
+.boards__content-prices {
+    display: flex;
+    margin-top: 24px;
+}
