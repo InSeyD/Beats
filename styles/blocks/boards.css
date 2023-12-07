@@ -29,3 +29,11 @@
     display: flex;
 }
 
+.options__item-icon {
+    margin-left: 26px;
+}
+
+.options__item-text {
+    margin-left: 12px;
+    width: 127px;
+}
