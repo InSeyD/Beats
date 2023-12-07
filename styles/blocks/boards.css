@@ -11,6 +11,10 @@
     flex-direction: column;
 }
 
+.boards-options {
+    position: relative;
+}
+
 .boards__options-icon {
     margin-top: 66px;
 }
@@ -21,7 +25,7 @@
     width: 273px;
     height: 291px;
     border-radius: 4px;
-    position: relative;
+    position: absolute;
     top: -95px;
     left: 91px;
     display: none;
