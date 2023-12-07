@@ -60,3 +60,14 @@
     width: 53px;
     text-align: end;
 }
+
+.boards__content-title {
+    font-size: 36px;
+    margin-top: 52px;
+}
+
+.boards__content-text {
+    font-size: 18px;
+    color: #666666;
+    margin-top: 24px;
+}
