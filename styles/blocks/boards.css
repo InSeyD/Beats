@@ -20,7 +20,7 @@
     box-shadow: 4px 4px 40px 0px #0000000f;
     width: 273px;
     height: 291px;
-}
+    border-radius: 4px;
 }
 
 .options__list {
