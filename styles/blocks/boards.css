@@ -27,7 +27,7 @@
     display: none;
 }
 
-.boards__options-icon:hover .boards-options-hover{
+.boards__options-icon:hover + .boards-options-hover{
     display: block;
 }
 
