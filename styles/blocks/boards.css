@@ -71,3 +71,12 @@
     color: #666666;
     margin-top: 24px;
 }
+
+.boards__content-size {
+    margin-top: 24px;
+    display: flex;
+}
+
+.boards__content-long {
+    margin-right: 55px;
+}
