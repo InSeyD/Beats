@@ -97,6 +97,8 @@
 .boards__content-prices {
     display: flex;
     margin-top: 24px;
+    align-items: center;
+    height: 60px;
 }
 
 .boards__content-price {
