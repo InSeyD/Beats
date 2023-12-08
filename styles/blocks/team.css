@@ -8,3 +8,25 @@
     margin-top: 53px;
     display: flex;
 }
+
+.summary {
+    position: relative;
+    display: block;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary::before {
+    content: '\25B6';
+    position: absolute;
+    right: 20px;
+    top: 0;
+    padding-right: 0.5em;
+    color: red;
+  }
+  
+  details[open]>summary::before {
+    content: '\25BC';
+  }
