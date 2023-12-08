@@ -21,10 +21,8 @@
   summary::before {
     content: url(../../images/details1.png);
     position: absolute;
-    right: 20px;
-    right: 82px;
-    top: 4px;
-    
+    right: 47px;
+    bottom: 2px;
   }
   
   details[open]>summary::before {
