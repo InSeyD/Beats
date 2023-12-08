@@ -30,6 +30,5 @@
   
   details[open]>summary::before {
     content: "";
-    border-bottom-color: #292929;
-    top: -1px;
+    transform: rotateX(45deg);
   }
