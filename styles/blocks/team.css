@@ -26,6 +26,6 @@
   }
   
   details[open]>summary::before {
-    top: 0px;
     transform: rotate(180deg);
+    bottom: -5px;
   }
