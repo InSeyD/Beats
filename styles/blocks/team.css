@@ -19,7 +19,7 @@
   }
   
   summary::before {
-    content: '\25B6';
+    content: "";
     position: absolute;
     right: 20px;
     top: 0;
@@ -28,5 +28,5 @@
   }
   
   details[open]>summary::before {
-    content: '\25BC';
+    content: "";
   }
