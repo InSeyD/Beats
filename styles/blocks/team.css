@@ -22,8 +22,10 @@
     content: "";
     position: absolute;
     right: 20px;
-    top: 0;
-    color: red;
+    right: 82px;
+    top: 4px;
+    border: 7px solid transparent;
+    border-top-color: #292929;
   }
   
   details[open]>summary::before {
