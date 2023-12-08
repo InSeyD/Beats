@@ -6,4 +6,5 @@
 
 .team__list {
     margin-top: 53px;
+    display: flex;
 }
