@@ -9,23 +9,24 @@
     display: flex;
 }
 
-   summary {
+summary {
     position: relative;
     display: block;
-  }
+    font-size: 21px;
+}
 
-  summary::-webkit-details-marker {
+summary::-webkit-details-marker {
     display: none;
-  }
+}
   
-  summary::before {
+summary::before {
     content: url(../../images/details1.png);
     position: absolute;
     right: 47px;
     bottom: 2px;
-  }
+}
   
-  details[open]>summary::before {
+details[open]>summary::before {
     transform: rotate(180deg);
     bottom: -5px;
-  }
+}
