@@ -9,6 +9,10 @@
     display: flex;
 }
 
+.team__item {
+    text-align: center;
+}
+
 summary {
     position: relative;
     display: block;
