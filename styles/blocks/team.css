@@ -20,6 +20,11 @@
     width: 172px;
 }
 
+.team__item-info {
+    font-size: 18px;
+    text-align: center;
+}
+
 summary {
     position: relative;
     display: block;
