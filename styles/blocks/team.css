@@ -26,7 +26,7 @@ summary::-webkit-details-marker {
 summary::before {
     content: url(../../images/details1.png);
     position: absolute;
-    right: 47px;
+    right: 18px;
     bottom: 2px;
 }
   
