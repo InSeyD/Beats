@@ -70,4 +70,12 @@ a {
 img {
   display: block;
   max-width: 100%;
+}
+
+.hero {
+  background: url(../../img/head-bg.png) no-repeat center;
+  background-size: 100% 100%;
+  background-color: #1968B1;
+  height: 100vh;
+  min-height: 650px;
 }/*# sourceMappingURL=main.css.map */
