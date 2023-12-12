@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;800&family=Poppins:wght@400;500;700&display=swap");
 html,
 body {
   height: 100%;
@@ -11,6 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
+  color: #666666;
 }
 
 .wrapper {
@@ -26,14 +26,10 @@ body {
   margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-top: 0;
-  font-weight: normal;
+h1 {
+  margin: 0;
+  color: #292929;
+  font-size: 48px;
 }
 
 table {
@@ -78,4 +74,20 @@ img {
   background-color: #1968B1;
   height: 100vh;
   min-height: 650px;
+  color: #fff;
+}
+
+.hero__main-title {
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */

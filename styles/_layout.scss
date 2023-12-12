@@ -1,23 +1,16 @@
-$containerWidht: 940px;
-$mainFontSize: 18px;
-$heroTextColor: #fff;
-$mainTextColor: #666666;
-$headerTextColor: #292929;
-
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;800&family=Poppins:wght@400;500;700&display=swap');
-
 html,
 body {
     height: 100%;
 }
 
 body {
-    font-size: $baseFontSize;
+    font-size: $mainTextSize;
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
+    color: $mainTextColor;
 }
 
 .wrapper {
@@ -33,14 +26,10 @@ body {
     margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-top: 0;
-    font-weight: normal;
+h1 {
+    margin: 0;
+    color: $titleTextColor;
+    font-size: $titleTextSize;
 }
 
 table {
