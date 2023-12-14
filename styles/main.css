@@ -103,10 +103,19 @@ img {
   margin-top: 17px;
 }
 
+.hero__btn {
+  margin-top: 39px;
+}
+
+.hero__icons-section {
+  margin-top: 64px;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 28px;
 }
 
 .menu__list {
@@ -135,4 +144,12 @@ img {
 .contacts__number {
   font-size: 22px;
   font-weight: 700;
+}
+
+.features {
+  display: flex;
+}
+
+.features__item {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
