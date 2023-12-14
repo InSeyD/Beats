@@ -1,0 +1,14 @@
+.contacts {
+    display: flex;
+    align-items: baseline;
+}
+
+.contacts__icon {
+    height: 13px;
+    margin-right: 5px;
+}
+
+.contacts__number {
+    font-size: 22px;
+    font-weight: 700;
+}

@@ -67,3 +67,16 @@ img {
     display: block;
     max-width: 100%;
 }
+
+.btn {
+    display: flex;
+    width: 156px;
+    height: 60px;
+    border-radius: 100px;
+    background: #FEDB3F;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+}
