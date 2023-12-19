@@ -25,10 +25,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 
     &:last-child {
         margin-right: 0;
     }
+
+    &::before {
+        content: url(../../img/whyshape.svg);
+        position: absolute;
+    }
+
 }
 
 .why__item-img {

@@ -202,9 +202,14 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 .why__item:last-child {
   margin-right: 0;
+}
+.why__item::before {
+  content: url(../../img/whyshape.svg);
+  position: absolute;
 }
 
 .why__item-img {
