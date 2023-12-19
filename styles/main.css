@@ -212,6 +212,17 @@ img {
   height: 128px;
   background: #F2F5F4;
   overflow: hidden;
-  position: relative;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why__item-icon {
+  width: 68px;
+  height: 68px;
+}
+
+.why__item-title {
+  margin: 20px 0;
 }/*# sourceMappingURL=main.css.map */
