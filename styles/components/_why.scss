@@ -1,0 +1,41 @@
+.container--why {
+    text-align: center;
+}
+
+.why__title {
+    margin-top: 103px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why__title-sub {
+    margin-top: 17px;
+    width: 436px;
+}
+
+.why__list {
+    display: flex;
+    margin-top: 49px;
+}
+
+.why__item {
+    flex: 1;
+    margin-right: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.why__item-img {
+    width: 128px;
+    height: 128px;
+    background: #F2F5F4;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+}
