@@ -207,9 +207,14 @@ img {
 .why__item:last-child {
   margin-right: 0;
 }
+.why__item:last-child::before {
+  display: none;
+}
 .why__item::before {
   content: url(../../img/whyshape.svg);
   position: absolute;
+  left: 270px;
+  top: 59px;
 }
 
 .why__item-img {

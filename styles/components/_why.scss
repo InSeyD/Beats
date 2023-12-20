@@ -29,11 +29,17 @@
 
     &:last-child {
         margin-right: 0;
+
+        &::before {
+            display: none;
+        }
     }
 
     &::before {
         content: url(../../img/whyshape.svg);
         position: absolute;
+        left: 270px;
+        top: 59px;
     }
 
 }
