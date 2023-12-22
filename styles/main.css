@@ -297,8 +297,13 @@ img {
   background-size: 1100px 652px;
 }
 
+.order__title {
+  color: #fff;
+}
+
 .order__form {
   display: flex;
+  color: #fff;
 }
 
 .form__col {
@@ -326,6 +331,7 @@ img {
   width: 100%;
   padding: 18px 12px;
   border: 3px solid transparent;
+  border-radius: 3px;
 }
 .form__input--textarea {
   height: 152px;
