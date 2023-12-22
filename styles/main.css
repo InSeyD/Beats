@@ -292,6 +292,11 @@ img {
   display: block;
 }
 
+.order {
+  background: url(../../img/orderbg.png) center no-repeat;
+  background-size: 1100px 652px;
+}
+
 .order__form {
   display: flex;
 }
@@ -328,4 +333,45 @@ img {
 .form__input:focus {
   border-color: #FEDB3F;
   outline: none;
+}
+
+.radio {
+  display: flex;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.radio--checkbox .radio__visible {
+  border-radius: 0;
+}
+.radio--checkbox .radio__visible::before {
+  background: url(../../img/checkmark.png) center center no-repeat;
+}
+
+.radio__elem {
+  display: none;
+}
+.radio__elem:checked ~ .radio__visible::before {
+  display: block;
+}
+
+.radio__visible {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  background: #FFF;
+  border-radius: 50%;
+}
+.radio__visible::before {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  content: "";
+  background: #FEDB3F;
+  border-radius: 50%;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=main.css.map */
