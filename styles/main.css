@@ -88,6 +88,19 @@ img {
   font-weight: 800;
   align-items: center;
   justify-content: center;
+  border: none;
+}
+.btn:hover {
+  background: #FFD517;
+}
+.btn--transparent {
+  background: transparent;
+  color: #fff;
+  font-weight: 400;
+}
+.btn--transparent:hover {
+  background: transparent;
+  color: #FEDB3F;
 }
 
 .hero {
@@ -96,6 +109,7 @@ img {
   background-color: #1968B1;
   height: 100vh;
   min-height: 652px;
+  max-height: 652px;
   color: #fff;
 }
 
@@ -306,6 +320,7 @@ img {
   display: flex;
   color: #fff;
   margin-top: 61px;
+  margin-bottom: 85px;
 }
 
 .form__col {
@@ -361,7 +376,7 @@ img {
   margin-right: 12px;
 }
 .radio--checkbox .radio__visible {
-  border-radius: 0;
+  border-radius: 6px;
 }
 .radio--checkbox .radio__visible::before {
   background: url(../../img/checkmark.png) center center no-repeat;
@@ -393,4 +408,10 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.form__btns {
+  display: flex;
+  margin-top: 44px;
+  margin-left: -8px;
 }/*# sourceMappingURL=main.css.map */
