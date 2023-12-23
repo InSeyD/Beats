@@ -414,4 +414,26 @@ img {
   display: flex;
   margin-top: 44px;
   margin-left: -8px;
+}
+
+.fixed-menu {
+  position: fixed;
+  top: 20%;
+  right: 3%;
+  z-index: 100;
+}
+
+.fixed-menu__item {
+  margin-bottom: 6px;
+}
+.fixed-menu__item--active .fixed-menu__link {
+  border-color: #fff;
+}
+
+.fixed-menu__link {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  display: block;
 }/*# sourceMappingURL=main.css.map */
