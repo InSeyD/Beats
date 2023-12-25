@@ -77,6 +77,10 @@ img {
   max-width: 100%;
 }
 
+address {
+  font-style: normal;
+}
+
 .btn {
   display: flex;
   width: 9.75rem;
