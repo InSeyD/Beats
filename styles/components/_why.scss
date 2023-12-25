@@ -3,25 +3,25 @@
 }
 
 .why__title {
-    margin-top: 103px;
+    margin-top: 6.4375rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .why__title-sub {
-    margin-top: 17px;
-    width: 436px;
+    margin-top: 1.0625rem;
+    width: 27.25rem;
 }
 
 .why__list {
     display: flex;
-    margin-top: 49px;
+    margin-top: 3.0625rem;
 }
 
 .why__item {
     flex: 1;
-    margin-right: 56px;
+    margin-right: 3.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,15 +38,15 @@
     &::before {
         content: url(../../img/whyshape.svg);
         position: absolute;
-        left: 270px;
-        top: 59px;
+        left: 16.875rem;
+        top: 3.6875rem;
     }
 
 }
 
 .why__item-img {
-    width: 128px;
-    height: 128px;
+    width: 8rem;
+    height: 8rem;
     background: #F2F5F4;
     overflow: hidden;
     border-radius: 50%;
@@ -56,11 +56,11 @@
 }
 
 .why__item-icon {
-    width: 68px;
-    height: 68px;
+    width: 4.25rem;
+    height: 4.25rem;
 }
 
 .why__item-title {
-    margin: 20px 0;
+    margin: 1.25rem 0;
 
 }

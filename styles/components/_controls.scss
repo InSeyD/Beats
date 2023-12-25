@@ -11,7 +11,7 @@
 
     &--checkbox {
         .radio__visible {
-            border-radius: 0.375rem;
+            border-radius: 6px;
 
             &::before {
                 background: url(../../img/checkmark.png)center center no-repeat;

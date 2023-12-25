@@ -5,20 +5,20 @@
 .order__title {
     color: #fff;
     text-align: center;
-    margin-top: 62px;
+    margin-top: 3.875rem;
 }
 
 
 .order__form {
     display: flex;
     color: #fff;
-    margin-top: 61px;
-    margin-bottom: 85px;
+    margin-top: 3.8125rem;
+    margin-bottom: 5.3125rem;
 }
 
 .form__col {
     flex: 1;
-    margin-right: 26px;
+    margin-right: 1.625rem;
 
     &:last-child {
         margin-right: 0;
@@ -27,12 +27,12 @@
 
 .form__row {
     display: flex;
-    margin-bottom: 14px;
+    margin-bottom: 0.875rem;
 }
 
 .form__block {
     flex: 1;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 
     &:last-child {
         margin-right: 0;
@@ -41,16 +41,16 @@
 
 .form__input {
     width: 100%;
-    padding: 18px 12px;
+    padding: 1.125rem 0.75rem;
     border: 3px solid transparent;
     border-radius: 3px;
     font-size: 14px;
-    height: 58px;
+    height: 3.625rem;
 
     &--textarea {
-        height: 152px;
+        height: 9.5rem;
         resize: none;
-        margin-bottom: 16px;
+        margin-bottom: 1rem;
     }
 
     &:focus {

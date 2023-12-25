@@ -4,7 +4,7 @@
 
 .features__item {
     display: flex;
-    margin-right: 33px;
+    margin-right: 2.0625rem;
     align-items: center;
 
     &:last-child {
@@ -13,9 +13,9 @@
 }
 
 .features__icon {
-    margin-right: 14px;
+    margin-right: 0.875rem;
 }
 
 .features__text {
-    width: 90px;
+    width: 5.625rem;
 }
