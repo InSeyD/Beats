@@ -27,3 +27,9 @@
 .hero__icons-section {
     margin-top: 4rem;
 }
+
+.hero__icons-section {
+    @include tablets {
+        display: none;
+    }
+}

@@ -150,6 +150,12 @@ address {
   margin-top: 4rem;
 }
 
+@media screen and (max-width: 768px) {
+  .hero__icons-section {
+    display: none;
+  }
+}
+
 .header {
   display: flex;
   align-items: center;
