@@ -158,7 +158,7 @@ address {
 }
 
 @media screen and (max-width: 768px) {
-  .header__contacts {
+  .contacts.header__contacts {
     display: none;
   }
 }
