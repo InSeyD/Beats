@@ -1,3 +1,9 @@
+.menu {
+    @include tablets {
+        display: none;
+    }
+}
+
 .menu__list {
     display: flex;
     align-items: center;

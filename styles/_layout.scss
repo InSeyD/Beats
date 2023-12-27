@@ -1,5 +1,14 @@
 html {
     font-size: $mainTextSize;
+    
+    @include tablets {
+        font-size: $mainTextSize -1px;
+    }
+
+    @include phones {
+        font-size: $mainTextSize -2px;
+    }
+    
 }
 
 html,
