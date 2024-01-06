@@ -1,8 +1,15 @@
+//size
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+//colors
+$yellow: #FEDB3F;
+$grey: #666666;
+$black: #292929;
+$white: #FFFFFF;
+
 //normalize
 @import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css";
-
-//var
-@import './var';
 
 //setups
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700&family=Open+Sans:wght@400;700&display=swap');
@@ -16,3 +23,5 @@
 @import './components/btn';
 @import './components/section';
 @import './components/headline';
+@import './components/benefits';
+@import './components/benefit';
