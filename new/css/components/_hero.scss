@@ -1,0 +1,32 @@
+.hero {
+    background: url(../../img/head-bg.png) center no-repeat;
+    background-size: 100% 100%;
+    max-height: 652px;
+    height: 100vh;
+    color: $white;
+}
+
+.hero__title-section {
+    width: 46%;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 28px 0 64px 0;
+}
+
+.hero__main-title {
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: bold;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+}
+
+.hero__title-desc {
+    font-size: 21px;
+    margin-bottom: 39px;
+}

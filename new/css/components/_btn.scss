@@ -1,0 +1,17 @@
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 21px 41px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    line-height: 1;
+
+    &--theme--white {
+        background: $yellow;
+        color: #000000;
+
+        &:hover {
+            background: #FFD517;
+        }
+    }
+}

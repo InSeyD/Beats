@@ -10,6 +10,14 @@
 
 .hero__title-section {
     margin-top: 6.375rem;
+
+    @include tablets {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .hero__main-title {
@@ -18,6 +26,7 @@
 
 .hero__title-desc {
     margin-top: 1.0625rem;
+    font-size: 1.3125rem;
 }
 
 .hero__btn {
