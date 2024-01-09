@@ -354,4 +354,38 @@ a {
 
 .form {
   display: flex;
+}
+
+.form__col {
+  flex: 1;
+  margin-right: 26px;
+}
+.form__col:last-child {
+  margin-right: 0;
+}
+
+.form__row {
+  display: flex;
+}
+
+.form__block {
+  flex: 1;
+  margin-right: 14px;
+}
+.form__block:last-child {
+  margin-right: 0;
+}
+
+.form__input {
+  width: 100%;
+  border: 3px solid transparent;
+  padding: 18px 12px;
+}
+.form__input--textarea {
+  height: 152px;
+  resize: none;
+}
+.form__input:focus {
+  border-color: #FEDB3F;
+  outline: none;
 }/*# sourceMappingURL=main.css.map */
