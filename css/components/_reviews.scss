@@ -1,5 +1,6 @@
 .reviews__display {
     background: #F8FAF9;
+    padding: 42px;
 }
 
 .reviews__display-inner {
@@ -31,9 +32,16 @@
 
 .reviews__text {
     margin-bottom: 25px;
+    width: 463px;
 }
 
 .reviews__author {
     font-weight: bold;
     color: $black;
+}
+
+.reviews__switcher {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
 }

@@ -271,6 +271,7 @@ a {
 
 .reviews__display {
   background: #F8FAF9;
+  padding: 42px;
 }
 
 .reviews__display-inner {
@@ -303,6 +304,7 @@ a {
 
 .reviews__text {
   margin-bottom: 25px;
+  width: 463px;
 }
 
 .reviews__author {
@@ -310,16 +312,27 @@ a {
   color: #292929;
 }
 
+.reviews__switcher {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
 .interactive-avatar {
   width: 74px;
   height: 74px;
-  border: 6px solid transparent;
+  outline: 6px solid transparent;
+  outline-offset: -5px;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
+  margin-right: 6px;
+}
+.interactive-avatar:last-child {
+  margin-right: 0;
 }
 .interactive-avatar--active {
-  border-color: #FEDB3F;
+  outline-color: #FEDB3F;
 }
 
 .interactive-avatar-link {
