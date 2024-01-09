@@ -19,6 +19,7 @@
 
 .reviews__content {
     flex: 1;
+    margin-left: 40px;
 }
 
 .reviews__title {
@@ -26,4 +27,13 @@
     font-weight: bold;
     color: $black;
     margin-bottom: 14px;
+}
+
+.reviews__text {
+    margin-bottom: 25px;
+}
+
+.reviews__author {
+    font-weight: bold;
+    color: $black;
 }
