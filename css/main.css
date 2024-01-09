@@ -350,4 +350,8 @@ a {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.form {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
