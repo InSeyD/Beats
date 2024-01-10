@@ -1,5 +1,19 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css";
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700&family=Open+Sans:wght@400;700&display=swap");
+html {
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+}
+
 html,
 body {
   height: 100%;
@@ -22,8 +36,10 @@ body {
 }
 
 .container {
-  width: 940px;
+  width: 95%;
+  max-width: 940px;
   margin: 0 auto;
+  position: relative;
 }
 
 h1,
@@ -471,4 +487,49 @@ a {
 
 .order-section__title {
   color: #FFFFFF;
+}
+
+.fixed-menu {
+  position: fixed;
+  top: 200px;
+  right: 200px;
+  z-index: 100;
+}
+
+.fixed-menu__item {
+  margin-bottom: 0.2777777778rem;
+}
+.fixed-menu__item_active .fixed-menu__link {
+  border-color: #fff;
+}
+.fixed-menu__item_active .fixed-menu_black {
+  border-color: #000;
+}
+
+.fixed-menu__link {
+  width: 0.8888888889rem;
+  height: 0.8888888889rem;
+  border-radius: 50%;
+  border: 0.0555555556rem solid transparent;
+  display: block;
+  position: relative;
+}
+.fixed-menu__link:before {
+  content: "";
+  display: block;
+  width: 0.3333333333rem;
+  height: 0.3333333333rem;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fixed-menu_black.active {
+  border-color: #000;
+}
+.fixed-menu_black::before {
+  background: #000;
 }/*# sourceMappingURL=main.css.map */
