@@ -407,21 +407,25 @@ a {
 .radio__elem {
   display: none;
 }
+.radio__elem:checked ~ .radio__visible::before {
+  display: block;
+}
 
 .radio__visible {
   width: 25px;
   height: 25px;
   position: relative;
   border-radius: 50%;
-  color: #FFFFFF;
+  background: #FFFFFF;
 }
 .radio__visible::before {
   position: absolute;
   content: "";
   width: 13px;
   height: 13px;
-  color: #FEDB3F;
+  background: #FEDB3F;
   border-radius: 50%;
+  display: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
