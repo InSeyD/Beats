@@ -388,4 +388,50 @@ a {
 .form__input:focus {
   border-color: #FEDB3F;
   outline: none;
+}
+
+.radio {
+  display: flex;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.radio--checkbox .radio__visible {
+  border-radius: 0;
+}
+.radio--checkbox .radio__visible::before {
+  background: url(../../img/decor/v.png) center center no-repeat;
+}
+
+.radio__elem {
+  display: none;
+}
+
+.radio__visible {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  border-radius: 50%;
+  color: #FFFFFF;
+}
+.radio__visible::before {
+  position: absolute;
+  content: "";
+  width: 13px;
+  height: 13px;
+  color: #FEDB3F;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.order-section {
+  background: url(../../img/formbg.png) center no-repeat;
+  color: #FFFFFF;
+}
+
+.order-section__title {
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
