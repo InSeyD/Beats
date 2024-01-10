@@ -28,6 +28,9 @@
     width: 100%;
     border: 3px solid transparent;
     padding: 18px 12px;
+    height: 58px;
+    border-radius: 5px;
+    margin-bottom: 14px;
 
     &--textarea {
         height: 152px;
@@ -38,4 +41,17 @@
         border-color: $yellow;
         outline: none;
     }
+}
+
+.form__controls {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.form__input--textarea {
+    margin-bottom: 36px;
+}
+
+.form__btns {
+    margin-top: 28px;
 }
