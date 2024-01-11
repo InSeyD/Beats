@@ -1,13 +1,13 @@
 .interactive-avatar {
-    width: 74px;
-    height: 74px;
-    outline: 6px solid transparent;
-    outline-offset: -5px;
+    width: rem(74px);
+    height: rem(74px);
+    outline: rem(6px) solid transparent;
+    outline-offset: rem(-5px);
     border-radius: 50%;
     overflow: hidden;
     position: relative;
 
-    margin-right: 6px;
+    margin-right: rem(6px);
 
     &:last-child {
         margin-right: 0;

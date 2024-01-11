@@ -58,13 +58,13 @@
 }
 
 .video__player {
-    width: 662px;
+    width: rem(662px);
     margin: 0 auto;
     position: relative;
 
     @include tablets {
         min-width: rem(480px);
-        max-width: 594px;
+        max-width: rem(594px);
     }
 
     @include phones {
@@ -104,7 +104,7 @@
     justify-content: space-between;
     position: relative;
     padding: rem(9px) rem(17px);
-    height: 25px; 
+    height: rem(25px); 
     position: absolute;
     bottom: 0;
 }
@@ -118,35 +118,35 @@
 
 
 .player__start {
-   height: 16px;
+   height: rem(16px);
    position: relative;
    overflow: hidden;
    margin-right: rem(20px);
-   width: 14px;
+   width: rem(14px);
 
    &:after {
     content: "";
-    width: 12px;
-    height: 12px;
+    width: rem(12px);
+    height: rem(12px);
     background: #626262;
     display: block;
     transform: rotate(45deg);
     position: absolute;
     top: 0;
-    left: -4px;
+    left: rem(-4px);
     /* right: 0; */
     bottom: 0;
     margin: auto;
-    border-radius: 2px;
+    border-radius: rem(2px);
    }
    @include phones {
-    //    margin-right: 4px;
+    //    margin-right: rem(4px);
        padding-right: 0;
    }
 }
 .paused {
-    width: 14px;
-    height: 16px;
+    width: rem(14px);
+    height: rem(16px);
     border: none;
     position: relative;
     margin-right: rem(20px);
@@ -157,11 +157,11 @@
         content: "";
         display: block;
         position: absolute;
-        width: 5px;
+        width: rem(5px);
         top: 0;
         bottom: 0;
         background: #626262;
-        margin-right: 2px;
+        margin-right: rem(2px);
     }
 
     &::after {
@@ -193,8 +193,8 @@
     left: 0%;
     display: block;
     background-color: #626262;
-    width: 15px;
-    height: 15px;
+    width: rem(15px);
+    height: rem(15px);
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;
@@ -248,8 +248,8 @@
     transform: translateY(-50%);
     display: block;
     background-color: #626262;
-    width: 15px;
-    height: 15px;
+    width: rem(15px);
+    height: rem(15px);
     border-radius: 50%;
     position: absolute;
     padding: 0;
