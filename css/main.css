@@ -113,6 +113,17 @@ a {
 .hero__title-section {
   width: 46%;
 }
+@media screen and (max-width: 768px) {
+  .hero__title-section {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
 
 .hero__container {
   display: flex;
@@ -628,9 +639,11 @@ a {
   flex-direction: column;
   justify-content: space-between;
   display: none;
-  margin-top: 0.3333333333rem;
-  margin-right: 1.4444444444rem;
+  margin-top: 34px;
+  margin-right: 33px;
   cursor: pointer;
+  width: 24px;
+  height: 22px;
 }
 @media screen and (max-width: 768px) {
   .hamburger {
@@ -1623,6 +1636,23 @@ a {
 }
 @media screen and (max-width: 768px) {
   .tablet-head {
-    display: block;
+    display: flex;
+    justify-content: space-between;
   }
+}
+
+.logo {
+  width: 56px;
+  height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo.logo__hide {
+    display: none;
+  }
+}
+
+.logo__head {
+  margin-top: 26px;
+  margin-left: 30px;
 }/*# sourceMappingURL=main.css.map */

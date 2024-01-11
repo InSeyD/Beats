@@ -5,6 +5,7 @@
     display: none;
 
     @include tablets {
-        display: block;
+        display: flex;
+        justify-content: space-between;
     }
 }
