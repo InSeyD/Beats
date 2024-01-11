@@ -3,6 +3,10 @@
     top: rem(200px);
     right: rem(200px);
     z-index: $z-fixed-menu;
+
+    @include tablets {
+        display: none;
+    }
 }
 
 .fixed-menu__item {

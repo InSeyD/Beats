@@ -91,9 +91,23 @@ a {
 .hero {
   background: url(../../img/head-bg.png) center no-repeat;
   background-size: 100% 100%;
+  background-color: #1968B1;
   max-height: 36.2222222222rem;
   height: 100vh;
   color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    min-height: 908px;
+    background: url(../../img/herotabbg.png) center no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero__icons-sections {
+    display: none;
+  }
 }
 
 .hero__title-section {
@@ -125,6 +139,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .phone-number.header__phone-number {
+    display: none;
+  }
 }
 
 .features {
@@ -470,6 +490,11 @@ a {
   top: 11.1111111111rem;
   right: 11.1111111111rem;
   z-index: 100;
+}
+@media screen and (max-width: 768px) {
+  .fixed-menu {
+    display: none;
+  }
 }
 
 .fixed-menu__item {
@@ -1588,4 +1613,16 @@ a {
   width: 0.7222222222rem;
   height: 0.7777777778rem;
   margin-right: 0.3333333333rem;
+}
+
+.tablet-head {
+  background-color: #1968B1;
+  height: 91px;
+  width: 100%;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .tablet-head {
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */

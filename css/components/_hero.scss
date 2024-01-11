@@ -1,9 +1,22 @@
 .hero {
     background: url(../../img/head-bg.png) center no-repeat;
     background-size: 100% 100%;
+    background-color: #1968B1;
     max-height: rem(652px);
     height: 100vh;
     color: $white;
+
+    @include tablets {
+        min-height: 908px;
+        background: url(../../img/herotabbg.png) center no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+.hero__icons-sections {
+    @include tablets {
+        display: none;
+    }
 }
 
 .hero__title-section {

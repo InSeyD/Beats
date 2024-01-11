@@ -1,0 +1,10 @@
+.tablet-head {
+    background-color: #1968B1;
+    height: 91px;
+    width: 100%;
+    display: none;
+
+    @include tablets {
+        display: block;
+    }
+}

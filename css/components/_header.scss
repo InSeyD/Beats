@@ -3,3 +3,9 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.phone-number.header__phone-number {
+    @include tablets {
+        display: none;
+    }
+}
