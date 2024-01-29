@@ -5,9 +5,9 @@
 }
 
 html {
-    font-size: 16px;
-    font-family: AlegreyaSans;
-    font-weight: 300;
+    font-size: $textSize;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -40,7 +40,7 @@ h1 {
 }
 
 .container {
-    max-width: 940px;
+    max-width: $containerSize;
     height: 100%;
     margin: 0 auto;
     padding: 0 10px;
