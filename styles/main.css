@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-svg {
-  display: block;
-  height: 100%;
-}
-
 html {
   font-size: 16px;
   font-family: "Alegreya Sans", sans-serif;
@@ -67,10 +62,12 @@ h1 {
   display: flex;
   margin-top: 24px;
   height: 40px;
+  align-items: center;
 }
 
 .menu {
   margin-right: 46px;
+  width: 640px;
 }
 
 .menu__list {
@@ -89,4 +86,13 @@ h1 {
   width: 40px;
   height: 40px;
   margin-right: 38px;
+}
+
+.contacts {
+  display: flex;
+}
+
+.contacts__icon-wrapper {
+  width: 14px;
+  height: 14px;
 }/*# sourceMappingURL=main.css.map */
