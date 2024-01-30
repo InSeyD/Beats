@@ -57,6 +57,13 @@ h1 {
 
 .hero-section {
   background-color: #F5F5F5;
+  position: relative;
+}
+.hero-section::before {
+  content: url(../../img/hero-bg.png);
+  position: absolute;
+  left: 50%;
+  top: 13%;
 }
 
 .hero__content {
@@ -69,6 +76,42 @@ h1 {
   font-size: 48px;
   width: 400px;
   line-height: 52px;
+}
+
+.hero__content-subtitle {
+  margin-top: 22px;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 332px;
+}
+
+.hero__btn {
+  margin-top: 36px;
+}
+
+.hero__icons {
+  margin-top: 70px;
+}
+
+.hero__icons-list {
+  display: flex;
+}
+
+.hero__icons-item {
+  display: flex;
+}
+
+.hero__icon {
+  width: 41px;
+  height: 41px;
+  margin-right: 11px;
+  margin-bottom: 65px;
+}
+
+.hero__icon-text {
+  width: 114px;
 }
 
 .header {
@@ -113,4 +156,15 @@ h1 {
 
 .contacts__tel {
   font-size: 18px;
+}
+
+.btn {
+  width: 163px;
+  height: 54px;
+  padding: 21px, 41px, 21px, 41px;
+  border-radius: 100px;
+  background-color: #E01F3D;
+  font-weight: 700;
+  color: #FFFFFF;
+  border: transparent;
 }/*# sourceMappingURL=main.css.map */
