@@ -8,6 +8,13 @@
         left: 50%;
         top: 13%;
     }
+
+    &::after {
+        content: url(../../img/hero-bg-element.svg);
+        position: absolute;
+        left: 90%;
+        top: 97%;
+    }
 }
 
 .hero__content {

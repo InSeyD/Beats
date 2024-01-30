@@ -73,6 +73,12 @@ h1 {
   left: 50%;
   top: 13%;
 }
+.hero-section::after {
+  content: url(../../img/hero-bg-element.svg);
+  position: absolute;
+  left: 90%;
+  top: 97%;
+}
 
 .hero__content {
   margin-top: 94px;
