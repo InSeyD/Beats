@@ -56,6 +56,13 @@ h1 {
   position: relative;
 }
 
+.section-title {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
 .hero-section {
   background-color: #F5F5F5;
   position: relative;
@@ -179,13 +186,6 @@ h1 {
   align-items: center;
 }
 
-.why__head-title {
-  text-transform: uppercase;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 52px;
-}
-
 .why__head-subtitle {
   width: 56%;
   text-align: center;
@@ -193,6 +193,20 @@ h1 {
 
 .why__list {
   margin-top: 62px;
+  display: flex;
+}
+
+.why__item {
+  width: 276px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 55px;
+  padding: 0px 26px;
+}
+.why__item:last-child {
+  margin-right: 0;
 }
 
 .why__item-icon-wrapper {
@@ -214,4 +228,24 @@ h1 {
 .why-icon-1 {
   width: 33px;
   height: 61px;
+}
+
+.why-icon-2 {
+  width: 52px;
+  height: 47px;
+}
+
+.why-icon-3 {
+  width: 59px;
+  height: 65px;
+}
+
+.why__item-title {
+  margin-top: 24px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.why__item-text {
+  margin-top: 7px;
 }/*# sourceMappingURL=main.css.map */
