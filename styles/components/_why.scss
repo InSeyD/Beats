@@ -16,3 +16,28 @@
     width: 56%;
     text-align: center;
 }
+
+.why__list {
+    margin-top: 62px;
+}
+
+.why__item-icon-wrapper {
+    width: 128px;
+    height: 128px;
+    background-color: #F2F5F4;
+    border-radius: 50%;
+    position: relative;
+}
+
+.why__item-icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.why-icon-1 {
+    width: 33px;
+    height: 61px;
+}
