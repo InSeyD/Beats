@@ -16,6 +16,7 @@
 }
 
 .why__item {
+    position: relative;
     width: 276px;
     text-align: center;
     display: flex;
@@ -24,11 +25,21 @@
     margin-right: 55px;
     padding: 0px 26px;
 
+    &::after {
+        position: absolute;
+        content: url(../../img/why-bg.svg);
+        display: block;
+        left: 95%;
+        top: 17%;
+    }
+    
     &:last-child {
         margin-right: 0;
+
+        &::after {
+            display: none;
+        }
     }
-
-
 }
 
 .why__item-icon-wrapper {

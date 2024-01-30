@@ -197,6 +197,7 @@ h1 {
 }
 
 .why__item {
+  position: relative;
   width: 276px;
   text-align: center;
   display: flex;
@@ -205,8 +206,18 @@ h1 {
   margin-right: 55px;
   padding: 0px 26px;
 }
+.why__item::after {
+  position: absolute;
+  content: url(../../img/why-bg.svg);
+  display: block;
+  left: 95%;
+  top: 17%;
+}
 .why__item:last-child {
   margin-right: 0;
+}
+.why__item:last-child::after {
+  display: none;
 }
 
 .why__item-icon-wrapper {
