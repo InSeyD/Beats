@@ -269,4 +269,23 @@ h1 {
 
 .shop-section {
   background-color: #F8FAF9;
+}
+
+.shop__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.shop__switcher {
+  width: 27px;
+  height: 15px;
+  border: 2px solid transparent;
+  border-top-color: black;
+  border-left-color: black;
+}
+.shop__switcher--left {
+  transform: rotate(-41deg);
+}
+.shop__switcher--right {
+  transform: rotate(135deg);
 }/*# sourceMappingURL=main.css.map */
