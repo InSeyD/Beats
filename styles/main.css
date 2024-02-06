@@ -304,4 +304,37 @@ h1 {
   width: 42px;
   height: 42px;
   display: block;
+}
+
+.shop__dropdown-list {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.0588235294);
+  width: 273px;
+  height: 294px;
+  padding: 28px 25px 34px 30px;
+}
+
+.shop__dropdown-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+  width: 218px;
+}
+.shop__dropdown-item:last-child {
+  margin-bottom: 0;
+}
+
+.shop__dropdown-item-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.shop__dropdown-item-number {
+  width: 53px;
+  text-align: right;
+}
+
+.shop__dropdown-item-text {
+  width: 127px;
 }/*# sourceMappingURL=main.css.map */
