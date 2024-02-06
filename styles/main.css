@@ -278,7 +278,7 @@ h1 {
 
 .shop__switcher {
   width: 27px;
-  height: 15px;
+  height: 12px;
   border: 2px solid transparent;
   border-top-color: black;
   border-left-color: black;
@@ -290,6 +290,40 @@ h1 {
   transform: rotate(135deg);
 }
 
+.shop__img {
+  margin: 96px 59px 94px 28px;
+}
+
+.shop__info {
+  margin: 67px 0 124px 0;
+}
+
+.shop__info-title {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.shop__info-text {
+  font-family: Play;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.shop__dropdown {
+  position: relative;
+  width: 91px;
+}
+.shop__dropdown:hover .shop__dropdown-list {
+  display: block;
+}
+
 .shop__dropdown-icon {
   background-color: #9A9A9A;
   width: 91px;
@@ -298,6 +332,7 @@ h1 {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
+  margin-bottom: 25px;
 }
 
 .shop__dropdown-img {
@@ -312,6 +347,11 @@ h1 {
   width: 273px;
   height: 294px;
   padding: 28px 25px 34px 30px;
+  position: absolute;
+  display: none;
+  border-radius: 4px;
+  top: 0px;
+  left: 91px;
 }
 
 .shop__dropdown-item {

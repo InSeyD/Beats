@@ -1,3 +1,12 @@
+.shop__dropdown {
+    position: relative;
+    width: 91px;
+
+    &:hover .shop__dropdown-list {
+        display: block;
+    }
+}
+
 .shop__dropdown-icon {
     background-color: #9A9A9A;
     width: 91px;
@@ -6,6 +15,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+    margin-bottom: 25px;
 }
 
 .shop__dropdown-img {
@@ -20,6 +30,11 @@
     width: 273px;
     height: 294px;
     padding: 28px 25px 34px 30px;
+    position: absolute;
+    display: none;
+    border-radius: 4px;
+    top: 0px;
+    left: 91px;
 }
 
 .shop__dropdown-item {
