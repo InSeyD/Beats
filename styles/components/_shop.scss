@@ -9,18 +9,26 @@
 
 .shop__switcher {
     width: 27px;
-    height: 12px;
+    height: 13px;
     border: 2px solid transparent;
     border-top-color: black;
     border-left-color: black;
 
     &--left {
-        transform: rotate(-41deg);
+        transform: rotate(-45deg);
     }
 
     &--right {
         transform: rotate(135deg);
     }
+}
+
+.shop__item {
+    display:flex;
+
+    &--red {
+        display: none;
+}
 }
 
 .shop__img {
@@ -41,13 +49,47 @@
 }
 
 .shop__info-text {
-    font-family: Play;
-    font-size: 16px;
-    font-weight: 400;
     line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: $gray;
+}
+
+.shop__info-features {
+    margin-top: 24px;
+    display: flex;
+}
+
+.shop__info-feature {
+    width: 104px;
+    height: 44px;
+    margin-right: 44px;
+}
+
+.shop__info-text-1 {
+    color: $gray;
+}
+
+.shop__info-text-2 {
+    color: $black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
     letter-spacing: 0px;
     text-align: left;
 }
 
+.shop__info-price {
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+}
 
+.shop__info-price-sum {
+    font-size: 36px;
+    line-height: 60px;
+    color: #151515;
+    width: 148px;
+    margin-right: 13px;
+}
 
