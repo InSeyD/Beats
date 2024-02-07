@@ -7,15 +7,20 @@
         position: absolute;
         left: 50%;
         top: 13%;
-    }
+        }
+    
 
     &::after {
-        content: url(../../img/hero-bg-element.svg);
+        content: "";
         position: absolute;
         left: 90%;
-        top: 97%;
+        top: 99%;
+        width: 46px;
+        height: 10px;
+        transform: rotate(-45deg);
+        background: #C4C4C4;
+      }
     }
-}
 
 .hero__content {
     margin-top: 94px;

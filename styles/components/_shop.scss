@@ -7,22 +7,6 @@
     align-items: center;
 }
 
-.shop__switcher {
-    width: 27px;
-    height: 13px;
-    border: 2px solid transparent;
-    border-top-color: black;
-    border-left-color: black;
-
-    &--left {
-        transform: rotate(-45deg);
-    }
-
-    &--right {
-        transform: rotate(135deg);
-    }
-}
-
 .shop__item {
     display:flex;
 
@@ -46,6 +30,7 @@
     line-height: 42px;
     letter-spacing: 0px;
     text-align: left;
+    width: 419px;
 }
 
 .shop__info-text {
@@ -53,6 +38,8 @@
     letter-spacing: 0px;
     text-align: left;
     color: $gray;
+    width: 368px;
+    margin-top: 24px;
 }
 
 .shop__info-features {

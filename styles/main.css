@@ -74,10 +74,14 @@ h1 {
   top: 13%;
 }
 .hero-section::after {
-  content: url(../../img/hero-bg-element.svg);
+  content: "";
   position: absolute;
   left: 90%;
-  top: 97%;
+  top: 99%;
+  width: 46px;
+  height: 10px;
+  transform: rotate(-45deg);
+  background: #C4C4C4;
 }
 
 .hero__content {
@@ -188,6 +192,23 @@ h1 {
   background-color: #CA1B36;
 }
 
+.why-section {
+  position: relative;
+}
+.why-section::after {
+  content: "";
+  border-bottom: 35px solid #E01F3D;
+  border-left: 17px solid transparent;
+  border-right: 18px solid transparent;
+  position: absolute;
+  bottom: -17px;
+  left: 17px;
+  width: 0;
+  height: 0;
+  z-index: 1;
+  transform: rotate(229deg);
+}
+
 .why__head {
   margin-top: 103px;
   display: flex;
@@ -279,20 +300,6 @@ h1 {
   align-items: center;
 }
 
-.shop__switcher {
-  width: 27px;
-  height: 13px;
-  border: 2px solid transparent;
-  border-top-color: black;
-  border-left-color: black;
-}
-.shop__switcher--left {
-  transform: rotate(-45deg);
-}
-.shop__switcher--right {
-  transform: rotate(135deg);
-}
-
 .shop__item {
   display: flex;
 }
@@ -315,6 +322,7 @@ h1 {
   line-height: 42px;
   letter-spacing: 0px;
   text-align: left;
+  width: 419px;
 }
 
 .shop__info-text {
@@ -322,6 +330,8 @@ h1 {
   letter-spacing: 0px;
   text-align: left;
   color: #666666;
+  width: 368px;
+  margin-top: 24px;
 }
 
 .shop__info-features {

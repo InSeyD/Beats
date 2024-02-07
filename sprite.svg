@@ -92,4 +92,11 @@
             <path d="M2.81415 15.0056H9.65442V16.4119H2.81415V15.0056Z" fill="black"/>
             <path d="M2.81415 12.1908H9.65442V13.597H2.81415V12.1908Z" fill="black"/>
       </symbol>
-</svg>
+      <symbol id="shop-switcher-left">
+           <path d="M14 28L1.91422 15.9142C1.13317 15.1332 1.13317 13.8668 1.91421 13.0858L14 1" stroke="black" stroke-width="2" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="shop-switcher-right">
+            <path d="M1 1L13.0858 13.0858C13.8668 13.8668 13.8668 15.1332 13.0858 15.9142L1 28" stroke="black" stroke-width="2" stroke-linecap="round"/>
+      </symbol>
+      </svg>
+

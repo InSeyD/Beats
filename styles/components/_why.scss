@@ -1,3 +1,21 @@
+.why-section {
+    position: relative;
+
+    &::after {
+        content: "";
+        border-bottom: 35px solid #E01F3D;
+        border-left: 17px solid transparent;
+        border-right: 18px solid transparent;
+        position: absolute;
+        bottom: -17px;
+        left: 17px;
+        width: 0;
+        height: 0;
+        z-index: 1;
+        transform: rotate(229deg);    
+    }
+}
+
 .why__head {
     margin-top: 103px;
     display: flex;
