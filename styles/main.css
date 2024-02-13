@@ -61,6 +61,12 @@ h1 {
   font-size: 48px;
   font-weight: 700;
   line-height: 52px;
+  text-align: center;
+}
+
+button {
+  border: transparent;
+  background: transparent;
 }
 
 .hero-section {
@@ -295,24 +301,50 @@ h1 {
   background-color: #F8FAF9;
 }
 
-.shop__wrapper {
-  display: flex;
-  align-items: center;
+.shop-container {
+  width: 980px;
 }
 
-.shop__item {
+.slider {
+  width: 928px;
+  height: 482px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
   display: flex;
 }
-.shop__item--red {
-  display: none;
+
+.slides-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.prev-button,
+.next-button {
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  top: 325px;
+}
+
+.prev-button {
+  float: left;
+  left: 32px;
+}
+
+.next-button {
+  float: right;
+  right: 83px;
 }
 
 .shop__img {
-  margin: 96px 59px 94px 28px;
-}
-
-.shop__info {
-  margin: 67px 0 124px 0;
+  margin-top: 30px;
+  margin-right: 59px;
 }
 
 .shop__info-title {
@@ -433,4 +465,34 @@ h1 {
 
 .shop__dropdown-item-text {
   width: 127px;
+}
+
+.reviews__title {
+  margin-top: 64px;
+}
+
+.review {
+  background-color: #F8FAF9;
+  display: flex;
+  padding: 42px 107px 42px 42px;
+  margin-top: 32px;
+}
+
+.review__img {
+  margin-right: 40px;
+}
+
+.review__info-title {
+  margin-top: 32px;
+  margin-bottom: 27px;
+}
+
+.review__info-text {
+  color: #666666;
+}
+
+.review__info-name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 38px;
 }/*# sourceMappingURL=main.css.map */

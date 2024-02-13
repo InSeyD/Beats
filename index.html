@@ -143,15 +143,15 @@
                 </div>
             </section>
             <section class="section shop-section">
-                <div class="container">
-                    <div class="shop__wrapper">
-                        <a href="#" class="shop__switcher shop__switcher--left">
-                            <svg width="15" height="29" viewBox="0 0 15 29" fill="none" xmlns="http://www.w3.org/2000/svg" class="switcher__icon">
-                                <use xlink:href="./sprite.svg#shop-switcher-left"></use>
-                            </svg>
-                        </a>
-                        <ul class="shop__list">
-                            <li class="shop__item shop__item--white">
+                <button class="prev-button">
+                    <svg width="15" height="29" viewBox="0 0 15 29" fill="none" xmlns="http://www.w3.org/2000/svg" class="switcher__icon">
+                        <use xlink:href="./sprite.svg#shop-switcher-left"></use>
+                    </svg>
+                </button>
+                <div class="slider">
+                        
+                        <div class="slides-container">
+                            <div class="slide">
                                 <div class="shop__img">
                                     <img src="./img/shop-bg.png" alt="Наушники">
                                 </div>
@@ -231,8 +231,8 @@
                                 <a href="#" class="btn">ЗАКАЗАТЬ</a>
                             </div>
                                 </div>
-                            </li>
-                            <li class="shop__item shop__item--red">
+                            </div>
+                            <div class="slide">
                                 <div class="shop__img">
                                     <img src="./img/shop-bg.png" alt="Наушники">
                                 </div>
@@ -312,19 +312,19 @@
                                 <a href="#" class="btn">ЗАКАЗАТЬ</a>
                             </div>
                                 </div>
-                            </li>
-                        </ul>
-                        <a href="#" class="shop__switcher shop__switcher--left">
-                            <svg width="15" height="29" viewBox="0 0 15 29" fill="none" xmlns="http://www.w3.org/2000/svg" class="switcher__icon">
-                                <use xlink:href="./sprite.svg#shop-switcher-right"></use>
-                            </svg>
-                        </a>
-                    </div>
+                            </div>
+                        </div>
+                        
                 </div>
+                <button class="next-button">
+                    <svg width="15" height="29" viewBox="0 0 15 29" fill="none" xmlns="http://www.w3.org/2000/svg" class="switcher__icon">
+                        <use xlink:href="./sprite.svg#shop-switcher-right"></use>
+                    </svg>
+                </button>
             </section>
             <section class="section reviews-section">
                 <div class="container">
-                    <h1 class="section-title">отзывы</h1>
+                    <h1 class="section-title reviews__title">отзывы</h1>
                     <div class="review">
                         <div class="review__img">
                             <img src="./img/review-1.png" alt="girl">
@@ -333,7 +333,7 @@
                             <h2 class="review__info-title">Отличный звук</h2>
                             <div class="review__info-text">
                                 <p>
-                                    Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В течение дня сижу за компьютером и часто отходить в кафе или на кухню просто не могу себе позволить. А батончик – он всегда под рукой. Это приятно и удобно. 
+                                    Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В течение дня сижу за компьютером и часто отходить в кафе или на кухню просто не могу себе позволить. А батончик – он всегда под рукой. Это приятно<br> и удобно. 
                                 </p>
                             </div>
                             <div class="review__info-name">Билли Айлиш</div>
@@ -354,5 +354,6 @@
             </section>
         </div>
     </div>
+    <script src="slider.js"></script> 
 </body>
 </html>
