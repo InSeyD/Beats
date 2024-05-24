@@ -1,0 +1,27 @@
+$containerWidth: 1200px;
+$baseFontSize: 16px;
+
+//breakpoint
+$tablets: 768px;
+$phones: 480px;
+
+//colors
+
+
+//z-index
+
+
+//media
+@import './media';
+
+//normalize
+@import './normalize';
+
+//setups
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import './layout';
+
+//components
+@import './components/header';
+@import './components/btn';
+@import './components/hero';

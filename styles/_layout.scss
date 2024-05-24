@@ -1,0 +1,85 @@
+html {
+    font-size: $baseFontSize;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Chakra Petch", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-smoothing: grayscale;
+    position: relative;
+    color: #D1D1D1;
+    background-color: #18181B;
+}
+
+.wpapper {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: 95%;
+    max-width: $containerWidth;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    li {
+        list-style: none;
+    }
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.section {
+    height: 100vh;
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
