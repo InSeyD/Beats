@@ -1,1 +1,0 @@
-videojs('my-player');
